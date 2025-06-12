@@ -8,13 +8,13 @@ This is fully compatible with *PHP 5 through to **PHP 8.1+***
 # Installation via Composer
 You can now install this class via composer.
 
-	$ composer require benhall14/php-calendar
+	$ composer require cschoenfeld/php-calendar
 	
 **Remember** to add the composer autoloader before using the class and use the correct namespace.
 
 	require 'vendor/autoload.php';
 
-	use benhall14\phpCalendar\Calendar as Calendar;
+	use cschoenfeld\phpCalendar\Calendar as Calendar;
 
 # Usage
 Please make sure you have added the required classes.
@@ -223,4 +223,4 @@ Licensed under the MIT license
 # Donate?
 If you find this project helpful or useful in any way, please consider getting me a cup of coffee - It's really appreciated :)
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/benhall14)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/cschoenfeld)

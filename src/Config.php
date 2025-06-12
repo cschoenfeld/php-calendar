@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace benhall14\phpCalendar;
+namespace cschoenfeld\phpCalendar;
 
 use Carbon\Carbon;
 use Carbon\CarbonInterface;

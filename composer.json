@@ -1,14 +1,14 @@
 {
-    "name": "benhall14/php-calendar",
+    "name": "cschoenfeld/php-calendar",
     "description": "A simple PHP class to generate calendars.",
-    "homepage": "https://github.com/benhall14/php-calendar",
+    "homepage": "https://github.com/cschoenfeld/php-calendar",
     "keywords": ["calendar", "time", "date", "calendars"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Benjamin Hall",
-            "email": "ben@conobe.co.uk",
-            "homepage": "https://github.com/benhall14",
+            "name": "Charles Schoenfeld",
+            "email": "charles.schoenfeld@gmail.com",
+            "homepage": "https://github.com/cschoenfeld",
             "role": "Developer"
         }
     ],
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "benhall14\\phpCalendar\\": "src/"
+            "cschoenfeld\\phpCalendar\\": "src/"
         }
     },
     "require-dev": {

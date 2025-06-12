@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace benhall14\phpCalendar;
+namespace cschoenfeld\phpCalendar;
 
 use BadMethodCallException;
-use benhall14\phpCalendar\Views\Month;
-use benhall14\phpCalendar\Views\Week;
+use cschoenfeld\phpCalendar\Views\Month;
+use cschoenfeld\phpCalendar\Views\Week;
 use Carbon\Carbon;
 use DateTimeInterface;
 
@@ -14,7 +14,7 @@ use DateTimeInterface;
  * Simple PHP Calendar Class.
  *
  * @copyright  Copyright (c) Benjamin Hall
- * @license https://github.com/benhall14/php-calendar
+ * @license https://github.com/cschoenfeld/php-calendar
  *
  * @version 1.2
  *

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace benhall14\phpCalendar\Views;
+namespace cschoenfeld\phpCalendar\Views;
 
-use benhall14\phpCalendar\Calendar;
-use benhall14\phpCalendar\Config;
-use benhall14\phpCalendar\Event;
+use cschoenfeld\phpCalendar\Calendar;
+use cschoenfeld\phpCalendar\Config;
+use cschoenfeld\phpCalendar\Event;
 use Carbon\CarbonInterface;
 use DateTimeInterface;
 
