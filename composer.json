@@ -1,6 +1,6 @@
 {
     "name": "cschoenfeld/php-calendar",
-    "description": "A simple PHP class to generate calendars.",
+    "description": "A simple PHP class to generate calendars. Forked from benhall14/php-calendar to support data attributes on the calendar cells.",
     "homepage": "https://github.com/cschoenfeld/php-calendar",
     "keywords": ["calendar", "time", "date", "calendars"],
     "license": "MIT",
