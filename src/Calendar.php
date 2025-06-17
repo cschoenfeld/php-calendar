@@ -54,6 +54,7 @@ class Calendar
     public function useMonthSwitchers(bool $b): static
     {
         $this->config->month_switchers = ($b === true);
+        return $this;
     }
 
     /**
