@@ -50,6 +50,11 @@ class Calendar
 
         return $this;
     }
+    
+    public function useMonthSwitchers(bool $b): static
+    {
+        $this->config->month_switchers = ($b === true);
+    }
 
     /**
      * Set the time format for the calendar.

@@ -69,6 +69,8 @@ class Config
      */
     public array $hiddenDays = [];
 
+    public bool $month_switchers = false;
+
     /**
      * @return list<string>
      */

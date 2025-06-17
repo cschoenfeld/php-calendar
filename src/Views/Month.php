@@ -84,8 +84,16 @@ class Month extends View
 
         $colspan = 7 - count($this->config->getHiddenDays());
         $string .= '<th colspan="'.$colspan.'">';
-
+        
+        if ($this->config->month_switchers === true) {
+            $string .= '<span class="month-switcher month-previous"></span>';
+        }
+        
         $string .= ucfirst($startDate->locale($this->config->locale)->monthName).' '.$startDate->year;
+
+        if ($this->config->month_switchers === true) {
+            $string .= '<span class="month-switcher month-next"></span>';
+        }
 
         $string .= '</th>';
 
